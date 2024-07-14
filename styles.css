@@ -1,0 +1,49 @@
+/* Reset some default browser styles */
+body, h1, ol {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+ol {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border: 1px solid #ccc;
+}
+
+video, audio {
+    width: 80%;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Optional: Style the controls for video and audio */
+video::-webkit-media-controls {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+audio::-webkit-media-controls {
+    background-color: rgba(0, 0, 0, 0.5);
+}
